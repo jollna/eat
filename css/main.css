@@ -1,12 +1,27 @@
 body{
     font-family:'Microsoft Yahei',Sans-Serif;
 }
-.navbar-brand {
-    background-image: url("../img/logo-1.png");
+.navbar-brand img{
+    /*background-image: url("../img/logo-1.png");*/
     width: 50px;
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center center;
+    display: inline;
+    margin: -10px 0 0 0;
+    padding: 0px 5px;
+}
+.navbar-brand{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-brand {
+    color: #1296db;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #1296db;
 }
 
 .navbar-default{
@@ -28,7 +43,7 @@ body{
     color: #ffffff;
     text-align: center;
     width: 100%;
-    /*height: 1080px;*/
+    height: 100%;
 
 }
 
@@ -43,10 +58,22 @@ body{
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 20px;
+    color: #111111;
 }
 
 #home p{
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
+    color: #111111;
 }
+
+.row{
+    width: 50px;
+}
+
+#classify{
+    padding: 30px 0px;
+    text-align: center;
+}
+
